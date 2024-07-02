@@ -33,11 +33,12 @@
                                                         <form:errors path="confirmPassword"
                                                             cssClass="invalid-feedback" />
                                                     </c:set>
-                                                    <c:set var="errorFirstName">
-                                                        <form:errors path="firstName" cssClass="invalid-feedback" />
-                                                    </c:set>
                                                     <c:set var="errorEmail">
                                                         <form:errors path="email" cssClass="invalid-feedback" />
+                                                    </c:set>
+
+                                                    <c:set var="errorFirstName">
+                                                        <form:errors path="firstName" cssClass="invalid-feedback" />
                                                     </c:set>
                                                     <div class="row mb-3">
                                                         <div class="col-md-6">
